@@ -7,7 +7,7 @@ import cl.ucm.villagermanagement.models.RangoUsuario
  *
  * @param password Contraseña privada con la que accede un usuario a su cuenta.
  * @property nickname Nombre con el que se identifica la cuenta del usuario.
- * @property rango Nivel de permisos de tipo [cl.ucm.villagermanagement.models.RangoUsuario] (inicia siempre en [cl.ucm.villagermanagement.models.RangoUsuario.NOOB]).
+ * @property rango Nivel de permisos de tipo [RangoUsuario] (inicia siempre en [RangoUsuario.NOOB]).
  * @throws IllegalArgumentException Si [nickname] o [password] están en blanco.
  */
 class Usuario(val nickname: String, private val password: String) {

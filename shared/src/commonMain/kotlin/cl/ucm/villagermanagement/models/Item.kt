@@ -154,7 +154,7 @@ enum class Item(
     override fun toString(): String = displayName
 
     companion object {
-        // Mapas en caché para búsquedas en tiempo O(1)
+        // Mapas en caché para búsquedas más eficientes
         private val cachePorNombre: Map<String, Item> = entries.associateBy { it.name.lowercase() }
         private val cachePorDisplay: Map<String, Item> = entries.associateBy { it.displayName.lowercase() }
         private val cachePorMcId: Map<String, Item> = entries.associateBy { it.minecraftId.lowercase() }
