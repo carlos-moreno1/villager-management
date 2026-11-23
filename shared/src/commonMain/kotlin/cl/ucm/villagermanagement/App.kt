@@ -14,6 +14,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import cl.ucm.villagermanagement.screens.InicioScreen
 import org.jetbrains.compose.resources.painterResource
 
 import villager_management.shared.generated.resources.Res
@@ -22,5 +23,5 @@ import villager_management.shared.generated.resources.compose_multiplatform
 @Composable
 @Preview
 fun App() {
-
+    InicioScreen()
 }
