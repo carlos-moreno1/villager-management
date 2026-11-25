@@ -1,6 +1,4 @@
-package org.example.models
-
-import cl.ucm.villagermanagement.models.RangoUsuario
+package cl.ucm.villagermanagement.models
 
 /**
  * Representa un usuario de un servidor.
